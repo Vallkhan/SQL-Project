@@ -40,3 +40,5 @@ where dept_name='Sales' or dept_name='Development';
 select last_name, count(last_name) as count from employees e group by last_name order by count desc;
 
 
+
+
